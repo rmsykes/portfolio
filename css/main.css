@@ -4,18 +4,25 @@ body {
     margin: 0 auto;
     width: 1000px;
     font-family: 'Mansalva', cursive;
-
+    line-height: 1.5;
 }
 
 
 header {
     background-color: aqua;
     display: flex;
-
+    flex-direction: column;
+    padding: 0px 50px;
 }
 
 header h1 {
-    padding-left: 50px;
+    margin: 0px;
+    padding: 70px 0px 50px 0px;
+    font-size: 55px
+}
+
+header p {
+    margin: 0px;
 }
 
 .content {
@@ -37,7 +44,8 @@ header h1 {
 
 .project-1 img {
     width:30%;
-    
+    margin: 30px;
+    height: 350px;
 }
 
 .project-2 {
@@ -49,7 +57,18 @@ header h1 {
 
 .project-2 img {
     width: 30%;
+    margin: 30px;
+}
 
+article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+article h3 {
+    margin: 0px;
 }
 
 
