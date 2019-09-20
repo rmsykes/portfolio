@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(196, 102, 39, 0.733);
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Mansalva', cursive;
+
+}
+
+
+header {
+    background-color: aqua;
+    display: flex;
+
+}
+
+header h1 {
+    padding-left: 50px;
+}
+
+.content {
+    background-color: red;
+  
+}
+
+.content h2 {
+    padding: 50px;
+    text-align: center;
+}
+
+.project-1 {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.project-1 img {
+    width:30%;
+    
+}
+
+.project-2 {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.project-2 img {
+    width: 30%;
+
+}
+
+
+footer {
+    background-color: blueviolet;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
