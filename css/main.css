@@ -1,25 +1,38 @@
 body {
-    background-color: rgba(196, 102, 39, 0.733);
+    background-image: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
     min-height: 100vh;
     margin: 0 auto;
     width: 1000px;
-    font-family: 'Mansalva', cursive;
+    font-family: 'Acme', sans-serif;
     line-height: 1.5;
+    background-size: cover;
+}
+
+header img {
+    width: 200px;
 }
 
 
 header {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     padding: 0px 50px;
+    color: silver;
 }
 
-header nav {
-    border: solid white 5px;
+a {
+    text-decoration: none;
+}
+
+header nav a {
+    color: silver;
 }
 
 
+header nav ul {
+    padding: 0px 50px;
+ 
+}
 
 
 header h1 {
@@ -33,17 +46,16 @@ header p {
 }
 
 .content {
-    background-color: red;
-  
+    color: silver;
 }
 
 .content h2 {
     padding: 50px;
     text-align: center;
+    font-size: 35px;
 }
 
 .project-1 {
-    background-color: green;
     display: flex;
     justify-content: space-around;
 
