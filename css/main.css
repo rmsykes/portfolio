@@ -90,7 +90,7 @@ header p {
 .project-1 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin: 0px 0px 120px 0px;
 }
 
 .project-1 img {
@@ -103,6 +103,7 @@ header p {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    margin: 100px 0px;
 }
 
 .project-2 img {
@@ -130,11 +131,13 @@ article p {
 
 footer {
     margin: 30px;
+    font-size: 20px;
 }
 
 footer nav a {
     color: silver;
 }
+
 
 ul {
     list-style: none;
