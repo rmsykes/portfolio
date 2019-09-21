@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 header {
     padding: 0px 50px;
@@ -24,6 +28,7 @@ header {
     width:100%;
 }
 
+
 header img {
     width: 200px;
     margin: 60px;
@@ -33,9 +38,6 @@ header img {
 
 
 
-a {
-    text-decoration: none;
-}
 
 a:hover {
     color:skyblue;
@@ -49,17 +51,25 @@ header nav a {
 header nav ul {
     padding: 0px 50px;
     font-size: 25px;
+
 }
 
 
 header h1 {
     margin: 0px;
+    text-align: center;
     padding: 65px 0px 30px 0px;
     font-size: 55px
+   
+}
+
+header h2 {
+    font-size: 25px;
 }
 
 header p {
     margin: 0px;
+
 }
 
 .content {
