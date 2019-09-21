@@ -115,6 +115,8 @@ article {
     display: flex;
     flex-direction: column;
     align-self: center;
+    width: 50%;
+    line-height: 2;
 }
 
 article h3 {
