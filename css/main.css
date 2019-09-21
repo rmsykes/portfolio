@@ -64,7 +64,7 @@ header h1 {
 }
 
 header h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 header p {
@@ -76,12 +76,16 @@ header p {
     color: silver;
 }
 
+
+
 .content h2 {
     padding: 50px 0px;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     margin: 0px;
 }
+
+
 
 .project-1 {
     display: flex;
@@ -115,6 +119,11 @@ article {
 
 article h3 {
     margin: 0px;
+    font-size: 30px;
+}
+
+article p {
+    font-size: 20px;
 }
 
 footer {
