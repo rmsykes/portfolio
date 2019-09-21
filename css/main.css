@@ -8,16 +8,20 @@ body {
     background-size: cover;
 }
 
-header img {
-    width: 200px;
-}
-
 
 header {
-    display: flex;
-    flex-direction: column;
     padding: 0px 50px;
     color: silver;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+header img {
+    width: 200px;
+    
 }
 
 a {
@@ -31,7 +35,6 @@ header nav a {
 
 header nav ul {
     padding: 0px 50px;
- 
 }
 
 
