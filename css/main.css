@@ -16,13 +16,19 @@ header {
 
 .header-content {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.header-content-text {
+    width:100%;
 }
 
 header img {
     width: 200px;
-    
+    margin: 60px;
 }
+
+
 
 a {
     text-decoration: none;
@@ -40,7 +46,7 @@ header nav ul {
 
 header h1 {
     margin: 0px;
-    padding: 70px 0px 50px 0px;
+    padding: 70px 0px 30px 0px;
     font-size: 55px
 }
 
@@ -53,15 +59,16 @@ header p {
 }
 
 .content h2 {
-    padding: 50px;
+    padding: 50px 0px;
     text-align: center;
     font-size: 35px;
+    margin: 0px;
 }
 
 .project-1 {
     display: flex;
     justify-content: space-around;
-
+    margin-bottom: 30px;
 }
 
 .project-1 img {
@@ -71,7 +78,6 @@ header p {
 }
 
 .project-2 {
-    background-color: yellow;
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -93,9 +99,12 @@ article h3 {
     margin: 0px;
 }
 
-
 footer {
-    background-color: blueviolet;
+    margin: 30px;
+}
+
+footer nav a {
+    color: silver;
 }
 
 ul {
