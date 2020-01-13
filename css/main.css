@@ -176,6 +176,8 @@ header p {
     background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
     border-radius: 25px;
     color: black;
+    box-shadow: 7px 10px black;
+
 
 }
 
@@ -209,7 +211,7 @@ header p {
 .projectOne:hover {
     transition: .8s;
     cursor: pointer;
-    box-shadow: 10px 18px black;
+    box-shadow: 0px 0px 20px 20px black;
 
 }
 
@@ -229,7 +231,7 @@ header p {
 .project-2:hover {
     transition: .8s;
     cursor: pointer;
-    box-shadow: 10px 18px black;
+    box-shadow: 0px 0px 20px 20px black;
 
 }
 
