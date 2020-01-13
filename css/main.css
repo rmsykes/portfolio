@@ -48,6 +48,8 @@ header {
     justify-content: center;
     margin: 50px 150px;
     border-radius: 25px;
+    box-shadow: 12px 18px black;
+
 }
 
 
@@ -179,7 +181,7 @@ header p {
     justify-content: space-around;
     margin: 25px 0px;
     border-radius: 25px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(62, 175, 192));
+    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
 }
 
 .projectOne a {
@@ -213,7 +215,7 @@ header p {
     margin: 150px 0px;
     border-radius: 25px;
     padding: 40px 0;
-    background: linear-gradient(to left, rgb(62, 175, 192), rgb(135, 207, 231));
+    background: linear-gradient(to left, rgb(35, 155, 173), rgb(135, 207, 231));
 
 }
 
