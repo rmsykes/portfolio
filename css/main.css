@@ -168,10 +168,15 @@ header p {
 
 
 .content h2 {
-    padding: 50px 0px;
+    padding: 30px 0px;
     text-align: center;
     font-size: 45px;
     margin: 0px;
+    width: 555px;
+    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    border-radius: 25px;
+    color: black;
+
 }
 
 
@@ -179,13 +184,14 @@ header p {
 .projectOne {
     display: flex;
     justify-content: space-around;
-    margin: 25px 0px;
+    margin: 45px 0px;
     border-radius: 25px;
     background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    color: black;
 }
 
 .projectOne a {
-    color: white;
+    color: black;
 }
 
 .projectOne img {
@@ -212,10 +218,11 @@ header p {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    margin: 150px 0px;
+    margin: 45px 0px;
     border-radius: 25px;
     padding: 40px 0;
     background: linear-gradient(to left, rgb(35, 155, 173), rgb(135, 207, 231));
+    color: black;
 
 }
 
