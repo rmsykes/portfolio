@@ -1,5 +1,7 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1542813301-593a989d0b09?ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1542813301-593a989d0b09?ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80); */
+    /* background-color: #73420D; */
+    background-color: #BF813B; 
     min-height: 100vh;
     margin: 0 auto;
     /* width: 1000px; */
@@ -36,7 +38,6 @@ display: flex;
 
 a {
     text-decoration: none;
-    color: silver;
 }
 
 header {
@@ -130,7 +131,7 @@ header img {
 
 
 
-a:hover {
+nav a:hover {
     color:aqua;
     transition: .8s;
 
@@ -162,8 +163,6 @@ header p {
 .content {
     color: white;
     margin: 100px 135px;
-
-    /* background: aqua; */
 }
 
 
@@ -180,7 +179,6 @@ header p {
 
 
 }
-
 
 
 .projectOne {
@@ -223,9 +221,12 @@ header p {
     margin: 45px 0px;
     border-radius: 25px;
     padding: 40px 0;
-    background: linear-gradient(to left, rgb(35, 155, 173), rgb(135, 207, 231));
+    background: linear-gradient(to left, #3B9ABF, rgb(135, 207, 231));
     color: black;
+}
 
+.project-2 a {
+    color: black;
 }
 
 .project-2:hover {
@@ -236,8 +237,16 @@ header p {
 }
 
 .project-2 img {
-    width: 30%;
     margin: 30px;
+    height: 350px;
+    width: 90%;
+
+    
+}
+
+.projectTwoImageConatiner {
+    width: 50%;
+    text-align: center;
 }
 
 article {
