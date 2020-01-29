@@ -1,21 +1,21 @@
 body {
     /* background-image: url(https://images.unsplash.com/photo-1542813301-593a989d0b09?ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80); */
-    /* background-color: #73420D; */
-    background-color: #BF813B; 
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 0 auto; 
     /* width: 1000px; */
     font-family: 'Acme', sans-serif;
     line-height: 1.5;
-    /* background-size: cover; */
+    background-size: cover;
     
 }
+
+
+
 
 nav {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-between;
     position: sticky;
     top: 0;
 }
@@ -35,21 +35,24 @@ display: flex;
 }
 
 
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 a {
     text-decoration: none;
 }
 
 header {
-    padding: 50px 100px;
     color: black;
     background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
     background-size: cover;
     display: flex;
     justify-content: center;
-    margin: 50px 150px;
-    border-radius: 25px;
-    box-shadow: 12px 18px black;
+    box-shadow: 0px 18px black;
 
 }
 
@@ -74,11 +77,7 @@ header img {
     border: solid black 3px;
 }
 
-.navItems {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .contactMeButtonContainer {
     display: flex;
