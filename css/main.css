@@ -1,13 +1,13 @@
 body {
-    /* background-image: url(https://images.unsplash.com/photo-1542813301-593a989d0b09?ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80); */
     min-height: 100vh;
     margin: 0 auto; 
-    /* width: 1000px; */
     font-family: 'Acme', sans-serif;
     line-height: 1.5;
     background-size: cover;
-    
+    background-color: black;
 }
+
+
 
 .navbar-inverse .navbar-brand {
     color: white;
@@ -21,6 +21,10 @@ nav {
     top: 0;
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
 
 nav a {
     text-decoration: none;
@@ -57,8 +61,6 @@ header {
 }
 
 header h1 {
-    /* margin: 0px;
-    text-align: center; */
     padding: 50px; 
     font-size: 55px;
 }
@@ -149,13 +151,25 @@ header img {
 
 
 nav a:hover {
-    color:aqua;
+    color:black;
     transition: .8s;
 
 }
 
 
 
+.skillsAndTechnologiesSection h1 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px auto;
+    text-align: center;
+    border-radius: 25px;
+    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    padding: 30px 0px;
+    font-size: 45px;
+    
+}
 
 
 .content {
@@ -265,14 +279,4 @@ article h3 {
 article p {
     font-size: 20px;
 }
-
-footer {
-    margin: 30px;
-    font-size: 20px;
-}
-
-footer nav a {
-    color: silver;
-}
-
 
