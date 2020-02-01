@@ -9,8 +9,9 @@ body {
     
 }
 
-
-
+.navbar-inverse .navbar-brand {
+    color: white;
+}
 
 nav {
     background-color: black;
@@ -47,7 +48,6 @@ a {
 }
 
 header {
-    color: black;
     background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
     background-size: cover;
     display: flex;
@@ -56,7 +56,26 @@ header {
 
 }
 
+header h1 {
+    margin: 0px;
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 55px;
+}
 
+header h2 {
+    font-size: 30px;
+}
+
+header p {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.aboutMe {
+    padding: 0 50px 50px 50px;
+
+}
 
 
 .headerTop {
@@ -138,26 +157,7 @@ nav a:hover {
 
 
 
-header h1 {
-    margin: 0px;
-    text-align: center;
-    padding: 100px 0px;
-    font-size: 55px;
-}
 
-header h2 {
-    font-size: 30px;
-}
-
-header p {
-    margin: 0px;
-    font-size: 24px;
-}
-
-.aboutMe {
-    padding: 0 50px 50px 50px;
-
-}
 
 .content {
     color: white;
