@@ -181,13 +181,13 @@ nav a:hover {
 .skillsListOne {
     display:flex;
     justify-content: space-evenly;
-    margin:20px
+    margin: 10px auto;
 }
 
 .skillsListOne img {
     width: 100px;
     height: 100px;
-    margin: 0 30px;
+    margin: 30px auto;
 }
 
 #cssLogo {
@@ -197,7 +197,7 @@ nav a:hover {
 .skillsListTwo {
     display:flex;
     justify-content: space-evenly;
-    margin:20px
+    margin: 10px auto;
 }
 
 .skillsListTwo img {
@@ -211,7 +211,41 @@ nav a:hover {
     border-radius: 25px;
 }
 
+#nodeLogo {
+    width:145px;
+    border-radius: 25px;
+}
 
+#mongoLogo {
+    width:145px;
+    border-radius: 25px;
+}
+
+#axiosLogo {
+    width:145px;
+    border-radius: 25px;
+}
+
+#agileLogo {
+    border-radius: 10px;
+}
+
+#pythonLogo {
+    width:145px;
+    border-radius: 25px;
+}
+
+.skillsListThree {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 40px 0 0 0;
+}
+
+.skillsListThree img {
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+}
 
 .content {
     color: white;
