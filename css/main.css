@@ -171,6 +171,15 @@ nav a:hover {
     
 }
 
+.listOfSkillsAndTechnologies {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.skillsListOne img {
+    width: 100px;
+}
+
 
 .content {
     color: white;
