@@ -172,10 +172,17 @@ nav a:hover {
 }
 
 .listOfSkillsAndTechnologies {
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to top, rgb(135, 207, 231), rgb(35, 155, 173));
     padding: 15px 0;
+    margin: 0 135px;
+    border-radius: 25px;
 }
 
+.skillsListOne {
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px
+}
 
 .skillsListOne img {
     width: 100px;
@@ -186,6 +193,25 @@ nav a:hover {
 #cssLogo {
     width:80px;
 }
+
+.skillsListTwo {
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px
+}
+
+.skillsListTwo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+#reactLogo {
+    width:145px;
+    border-radius: 25px;
+}
+
+
 
 .content {
     color: white;
