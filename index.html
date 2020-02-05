@@ -4,28 +4,53 @@
 <head>
     <meta charset="utf-8">
     <title>Marshall Sykes Portfolio</title>
-    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 
 
 <body>
 
 
-    <nav>
-        <h2 class='navName'><a href="https://rmsykes.github.io/"></a>Marshall</h2>
 
-        <div class="navItems">
-            <a href="https://rmsykes.github.io/">About Me</a>
-            <a href="#">Featured Work</a>
-            <a href="https://www.linkedin.com/in/rmsykes91/">LinkedIn</a>
-            <a href="https://github.com/rmsykes">GitHub</a>
-        </div>
 
-        <div class="contactMeButtonContainer">
-            <a href="mailto:rmsykes91@gmail.com">
-                <button class="btn btn1">Contact Me</button>
-            </a>
+    <nav class=" navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://rmsykes.github.io/">Marshall</a>
+            </div>
+
+            <ul class="nav">
+                <li><a href="https://www.linkedin.com/in/rmsykes91/">LinkedIn</a></li>
+                <li><a href="https://github.com/rmsykes">GitHub</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Apps
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://sykes-project-3.herokuapp.com/">Concert Recall</a></li>
+                        <li><a href="https://dog-tracking-app.herokuapp.com/">Bark Notes</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <div class="contactMeButtonContainer">
+                <a href="mailto:rmsykes91@gmail.com">
+                    <button class="btn btn1">Contact Me</button>
+                </a>
+            </div>
+
         </div>
     </nav>
 
@@ -34,15 +59,26 @@
         <div class="header-content">
             <div class="headerTop">
                 <h1>Marshall Sykes</h1>
-                <img src="https://i.imgur.com/uGYagLj.jpg?1" title="source: imgur.com" alt="Marshall Sykes Photo" />
+                <img src="https://media.giphy.com/media/10FwycrnAkpshW/giphy.gif" title="source: imgur.com"
+                    alt="Marshall Sykes Photo" />
 
             </div>
             <div class="headerBottom">
                 <div class="aboutMe">
-                    <h2>About Me</h2>
-                    <p>Software Engineer with strong communication and teamwork skills thanks to a successful background
-                        in sales and customer service. I take pride in delivering reliable solutions that make life
-                        easier, and provide peace of mind for clients and colleagues alike. </p>
+                    <p>After graduating from the University of North Carolina at Chapel Hill in 2015,
+                        I spent four years as a successful sales and customer service representative,
+                        where our proprietary technology was our competitive advantage. During that
+                        time, my respect for technology, and its ability to positively shape our lives
+                        and future, inspired me to transition into the field of technology and software engineering.
+                        </br>
+                        </br>
+                        Having just completed an intensive 500+ hour software engineering program through
+                        General Assembly, my knowledge base is current, practical and adaptable. Through this
+                        program, I have gained confidence in my ability to learn and apply programming languages
+                        in a variety of forms and to meet an assortment of needs. I continue to grow my skill set
+                        by learning new skills and technologies, and building apps which you can preview and use by
+                        clicking on them below. 
+                    </p>
                 </div>
 
             </div>
@@ -51,7 +87,36 @@
 
     </header>
 
+
+
     <main>
+
+        <div class='skillsAndTechnologiesSection'>
+            <h1>Skills and Technologies</h1>
+
+            <div class="listOfSkillsAndTechnologies">
+                <div class="skillsListOne">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.w3.org%2Fhtml%2Flogo%2Fdownloads%2FHTML5_Logo_512.png&f=1&nofb=1" alt="html5 logo">
+                    <img id="cssLogo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhumancoders-formations.s3.amazonaws.com%2Fuploads%2Fcourse%2Flogo%2F70%2Fthumb_bigger_formation-css3.png&f=1&nofb=1" alt="css logo">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fba%2FJavascript_badge.svg%2F2000px-Javascript_badge.svg.png&f=1&nofb=1" alt="css logo">
+                    <img id='reactLogo' src="https://i.imgur.com/MYiFg6N.png" alt="reaact logo">
+                    
+                </div>
+                <div class="skillsListTwo">
+                    <img id='nodeLogo' src="https://i.imgur.com/Tl55Yxt.png" alt="node logo">
+                    <img id='mongoLogo'src="https://i.imgur.com/Rytm7BN.png" alt="mongoDB logo">
+                    <img id='axiosLogo' src="https://i.imgur.com/FmsSzPv.png" alt="axios logo">
+                </div>
+                <div class="skillsListThree">
+                    <img id='agileLogo' src="https://i.imgur.com/WmZiE64.png" alt="agile logo">
+                    <img id='pythonLogo' src="https://i.imgur.com/Er4A1MF.png" alt="python logo">
+                </div>
+
+            </div>
+
+        </div>
+
+
         <div class="content">
             <h2>Featured Sites & Applications</h2>
 
@@ -106,15 +171,7 @@
         </div>
     </main>
 
-    <!-- <footer>
-        <nav>
-            <div>
-                <a href="https://rmsykes.github.io/">About Me</a>
-                <a href="#">Featured Work</a>
-                <a href="https://www.linkedin.com/in/rmsykes91/">LinkedIn</a>
-            </div>
-        </nav>
-    </footer> -->
+
 
 </body>
 
