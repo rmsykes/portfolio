@@ -234,6 +234,9 @@ nav a:hover {
     width:145px;
     border-radius: 25px;
 }
+#sqlLogo {
+    border-radius: 10px;
+}
 
 .skillsListThree {
     display:flex;
