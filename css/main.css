@@ -237,6 +237,15 @@ nav a:hover {
     border-radius: 25px;
 }
 
+#sqlLogo {
+    border-radius: 10px;
+}
+
+#gitHubLogo {
+    border-radius: 10px;
+    width: 145px;
+}
+
 .skillsListThree {
     display:flex;
     justify-content: space-evenly;
@@ -270,7 +279,7 @@ nav a:hover {
 }
 
 
-.projectOne {
+.projectA {
     display: flex;
     justify-content: space-around;
     margin: 45px 0px;
@@ -279,31 +288,31 @@ nav a:hover {
     color: black;
 }
 
-.projectOne a {
+.projectA a {
     color: black;
 }
 
-.projectOne img {
+.projectA img {
     margin: 30px;
     height: 350px;
     width: 90%;
 
 }
 
-.projectOneImageContainer {
+.projectAImageContainer {
     text-align: center;
     width: 50%;
 }
 
-.projectOne:hover {
+.projectA:hover {
     transition: .8s;
     cursor: pointer;
-    box-shadow: 0px 0px 20px 20px black;
+    box-shadow: 0px 0px 20px 20px silver;
 
 }
 
 
-.project-2 {
+.projectB {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -314,18 +323,18 @@ nav a:hover {
     color: black;
 }
 
-.project-2 a {
+.projectB a {
     color: black;
 }
 
-.project-2:hover {
+.projectB:hover {
     transition: .8s;
     cursor: pointer;
-    box-shadow: 0px 0px 20px 20px black;
+    box-shadow: 0px 0px 20px 20px silver;
 
 }
 
-.project-2 img {
+.projectB img {
     margin: 30px;
     height: 350px;
     width: 90%;
@@ -333,7 +342,7 @@ nav a:hover {
     
 }
 
-.projectTwoImageConatiner {
+.projectBImageConatiner {
     width: 50%;
     text-align: center;
 }
