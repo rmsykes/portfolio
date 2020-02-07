@@ -167,7 +167,7 @@ nav a:hover {
     margin: 25px auto;
     text-align: center;
     border-radius: 25px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
     padding: 30px 0px;
     font-size: 45px;
     
@@ -246,6 +246,10 @@ nav a:hover {
     width: 145px;
 }
 
+#djangoLogo {
+    border-radius: 10px;
+}
+
 .skillsListThree {
     display:flex;
     justify-content: space-evenly;
@@ -270,7 +274,7 @@ nav a:hover {
     font-size: 45px;
     margin: 0px;
     width: 555px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
     border-radius: 25px;
     color: black;
     box-shadow: 7px 10px black;
@@ -282,10 +286,11 @@ nav a:hover {
 .projectA {
     display: flex;
     justify-content: space-around;
-    margin: 45px 0px;
+    margin: 45px 0;
+    padding: 20px 0;
     border-radius: 25px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
-    color: black;
+    background: linear-gradient(to left, rgb(135, 207, 231), #3B9ABF);
+
 }
 
 .projectA a {
@@ -296,12 +301,12 @@ nav a:hover {
     margin: 30px;
     height: 350px;
     width: 90%;
-
+    border-radius: 10px;
 }
 
-.projectAImageContainer {
-    text-align: center;
+.projectImageContainer {
     width: 50%;
+    text-align: center;
 }
 
 .projectA:hover {
@@ -315,12 +320,11 @@ nav a:hover {
 .projectB {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
-    margin: 45px 0px;
+    margin: 45px 0;
+    padding: 20px 0;
     border-radius: 25px;
-    padding: 40px 0;
     background: linear-gradient(to left, #3B9ABF, rgb(135, 207, 231));
-    color: black;
+    flex-direction: row-reverse;
 }
 
 .projectB a {
@@ -338,14 +342,9 @@ nav a:hover {
     margin: 30px;
     height: 350px;
     width: 90%;
-
-    
+    border-radius: 10px;
 }
 
-.projectBImageConatiner {
-    width: 50%;
-    text-align: center;
-}
 
 article {
     text-align: center;
