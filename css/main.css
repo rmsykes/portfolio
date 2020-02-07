@@ -1,5 +1,3 @@
-
-  
 body {
     min-height: 100vh;
     margin: 0 auto; 
@@ -8,8 +6,6 @@ body {
     background-size: cover;
     background-color: black;
 }
-
-
 
 .navbar-inverse .navbar-brand {
     color: white;
@@ -48,6 +44,11 @@ display: flex;
     align-items: center;
 }
 
+
+nav a:hover {
+    color:black;
+    transition: .8s;
+}
 
 a {
     text-decoration: none;
@@ -151,15 +152,6 @@ header img {
 } 
 
 
-
-nav a:hover {
-    color:black;
-    transition: .8s;
-
-}
-
-
-
 .skillsAndTechnologiesSection h1 {
     display: flex;
     justify-content: center;
@@ -172,6 +164,7 @@ nav a:hover {
     font-size: 45px;
     
 }
+
 
 .listOfSkillsAndTechnologies {
     background: linear-gradient(to top, rgb(135, 207, 231), rgb(35, 155, 173));
@@ -279,9 +272,14 @@ nav a:hover {
     color: black;
     box-shadow: 7px 10px black;
 
-
 }
 
+.projectImageContainer img {
+    margin: 30px;
+    height: 350px;
+    width: 90%;
+    border-radius: 10px;
+}
 
 .projectA {
     display: flex;
@@ -297,16 +295,15 @@ nav a:hover {
     color: black;
 }
 
-.projectA img {
+/* .projectA img {
     margin: 30px;
     height: 350px;
     width: 90%;
     border-radius: 10px;
-}
+} */
 
 .projectImageContainer {
     width: 50%;
-    text-align: center;
 }
 
 .projectA:hover {
@@ -338,12 +335,12 @@ nav a:hover {
 
 }
 
-.projectB img {
+/* .projectB img {
     margin: 30px;
     height: 350px;
     width: 90%;
     border-radius: 10px;
-}
+} */
 
 
 article {
