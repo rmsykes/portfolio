@@ -7,8 +7,6 @@ body {
     background-color: black;
 }
 
-
-
 .navbar-inverse .navbar-brand {
     color: white;
 }
@@ -46,6 +44,11 @@ display: flex;
     align-items: center;
 }
 
+
+nav a:hover {
+    color:black;
+    transition: .8s;
+}
 
 a {
     text-decoration: none;
@@ -149,15 +152,6 @@ header img {
 } 
 
 
-
-nav a:hover {
-    color:black;
-    transition: .8s;
-
-}
-
-
-
 .skillsAndTechnologiesSection h1 {
     display: flex;
     justify-content: center;
@@ -165,11 +159,12 @@ nav a:hover {
     margin: 25px auto;
     text-align: center;
     border-radius: 25px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
     padding: 30px 0px;
     font-size: 45px;
     
 }
+
 
 .listOfSkillsAndTechnologies {
     background: linear-gradient(to top, rgb(135, 207, 231), rgb(35, 155, 173));
@@ -235,10 +230,23 @@ nav a:hover {
     border-radius: 25px;
 }
 
+#sqlLogo {
+    border-radius: 10px;
+}
+
+#gitHubLogo {
+    border-radius: 10px;
+    width: 145px;
+}
+
+#djangoLogo {
+    border-radius: 10px;
+}
+
 .skillsListThree {
     display:flex;
     justify-content: space-evenly;
-    margin: 40px 0 0 0;
+    margin: 40px 0 25px 0;
 }
 
 .skillsListThree img {
@@ -259,82 +267,68 @@ nav a:hover {
     font-size: 45px;
     margin: 0px;
     width: 555px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
     border-radius: 25px;
     color: black;
     box-shadow: 7px 10px black;
 
-
 }
 
-
-.projectOne {
-    display: flex;
-    justify-content: space-around;
-    margin: 45px 0px;
-    border-radius: 25px;
-    background: linear-gradient(to left, rgb(135, 207, 231), rgb(35, 155, 173));
-    color: black;
-}
-
-.projectOne a {
-    color: black;
-}
-
-.projectOne img {
+.projectImageContainer img {
     margin: 30px;
     height: 350px;
     width: 90%;
+    border-radius: 10px;
+}
+
+.projectA {
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0;
+    padding: 20px 0;
+    border-radius: 25px;
+    background: linear-gradient(to left, rgb(135, 207, 231), #3B9ABF);
 
 }
 
-.projectOneImageContainer {
-    text-align: center;
+.projectA a {
+    color: black;
+}
+
+
+.projectImageContainer {
     width: 50%;
 }
 
-.projectOne:hover {
+.projectA:hover {
     transition: .8s;
     cursor: pointer;
-    box-shadow: 0px 0px 20px 20px black;
+    box-shadow: 0px 0px 20px 20px silver;
 
 }
 
 
-.project-2 {
+.projectB {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
-    margin: 45px 0px;
+    margin: 45px 0;
+    padding: 20px 0;
     border-radius: 25px;
-    padding: 40px 0;
     background: linear-gradient(to left, #3B9ABF, rgb(135, 207, 231));
+    flex-direction: row-reverse;
+}
+
+.projectB a {
     color: black;
 }
 
-.project-2 a {
-    color: black;
-}
-
-.project-2:hover {
+.projectB:hover {
     transition: .8s;
     cursor: pointer;
-    box-shadow: 0px 0px 20px 20px black;
+    box-shadow: 0px 0px 20px 20px silver;
 
 }
 
-.project-2 img {
-    margin: 30px;
-    height: 350px;
-    width: 90%;
-
-    
-}
-
-.projectTwoImageConatiner {
-    width: 50%;
-    text-align: center;
-}
 
 article {
     text-align: center;
