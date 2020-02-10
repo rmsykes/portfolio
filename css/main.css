@@ -5,10 +5,12 @@ body {
     line-height: 1.5;
     background-size: cover;
     background-color: #222;
+    
 }
 
 .navbar-inverse .navbar-brand {
     color: white;
+    margin-top: 6px;
 }
 
 .container-fluid {
@@ -33,10 +35,7 @@ nav a {
     margin: 0 15px;
 }
 
-nav a:hover {
-    color:#222;
-    transition: .8s;
-}
+
 
 .navList {
     list-style: none;
@@ -46,7 +45,15 @@ nav a:hover {
 }
 
 .navList a {
-    padding: 0 25px;
+    padding: 7px 10px;
+}
+
+.navList a:hover {
+    background-color: white;
+    text-decoration: none;
+    color:#222;
+    transition: .8s;
+    border-radius: 10px;
 }
 
 
@@ -55,7 +62,7 @@ nav a:hover {
 }
 
 .navName {
-display: flex;
+    display: flex;
 }
 
 
@@ -176,7 +183,7 @@ header img {
 .listOfSkillsAndTechnologies {
     background: linear-gradient(to top, rgb(135, 207, 231), #3B9ABF);
     padding: 15px 0;
-    margin: 0 135px;
+    margin: 0 200px;
     border-radius: 25px;
 }
 
@@ -263,7 +270,7 @@ header img {
 
 .content {
     color: white;
-    margin: 100px 135px;
+    margin: 100px 200px;
 }
 
 
@@ -353,6 +360,18 @@ article p {
     font-size: 20px;
 }
 
+
+@media only screen and (max-width: 1300px) {
+    .listOfSkillsAndTechnologies {
+        margin: 0 165px;
+    }
+    
+    .content {
+        margin: 100px 165px;
+    }
+
+
+}
 
 @media only screen and (max-width: 1175px) {
     .projectImageContainer img {
@@ -446,6 +465,11 @@ article p {
 }
 
 @media only screen and (max-width: 800px) {
+    .navbar-inverse .navbar-brand {
+        color: white;
+        margin-top: 0px;
+    }
+    
     .navList a {
         padding: 0;
     }
@@ -512,6 +536,14 @@ article p {
         margin: 30px auto;
     }
 
+    article {
+        line-height: 1.7;
+    }
+
+    .projectImageContainer img {
+        margin: 15px;
+    }
+
 
     #cssLogo {
         width: 60px;
@@ -555,5 +587,16 @@ article p {
     
     nav a {
         padding: 0 0;
+    }
+}
+
+/* iphone 6/7/8 PLUS */
+@media only screen and (max-width: 414px) {
+    body {
+        width: 645px;
+    }
+
+    .content h2 {
+        width: 555px;
     }
 }
