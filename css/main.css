@@ -4,24 +4,24 @@ body {
     font-family: 'Acme', sans-serif;
     line-height: 1.5;
     background-size: cover;
-    background-color: black;
+    background-color: #222;
 }
 
 .navbar-inverse .navbar-brand {
     color: white;
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
 nav {
-    background-color: black;
+    background-color: #222;
     color: white;
     display: flex;
     position: sticky;
     top: 0;
-}
-
-.container-fluid {
-    display: flex;
-    justify-content: space-between;
 }
 
 nav a {
@@ -33,22 +33,31 @@ nav a {
     margin: 0 15px;
 }
 
+nav a:hover {
+    color:#222;
+    transition: .8s;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-top:10px;
+}
+
+.navList a {
+    padding: 0 25px;
+}
+
+
+.dropdown-toggle {
+    align-items: center;
+}
+
 .navName {
 display: flex;
 }
 
-
-.navItems {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-nav a:hover {
-    color:black;
-    transition: .8s;
-}
 
 a {
     text-decoration: none;
@@ -59,7 +68,6 @@ header {
     background-size: cover;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 18px black;
 
 }
 
@@ -93,7 +101,7 @@ header img {
     width: 255px;
     margin: 60px 0 15px 0;
     border-radius: 40%;
-    border: solid black 3px;
+    border: solid #222 3px;
 }
 
 
@@ -122,7 +130,7 @@ header img {
 }
 
 .btn1:hover {
-    color:black;
+    color:#222;
 }
 
 
@@ -269,7 +277,7 @@ header img {
     background: linear-gradient(to bottom, rgb(135, 207, 231), #3B9ABF);
     padding: 30px 0px;
     font-size: 45px;
-    color:black;
+    color:#222;
 
 }
 
@@ -289,7 +297,7 @@ header img {
 }
 
 .projectA a {
-    color: black;
+    color: #222;
 }
 
 
@@ -315,7 +323,7 @@ header img {
 }
 
 .projectB a {
-    color: black;
+    color: #222;
 }
 
 .projectB:hover {
@@ -438,6 +446,10 @@ article p {
 }
 
 @media only screen and (max-width: 800px) {
+    .navList a {
+        padding: 0;
+    }
+    
     .headerTop img {
             width: 225px;
        }
@@ -539,7 +551,9 @@ article p {
 }
 
 
-@media only screen and (max-width: 680px) {
-
+@media only screen and (max-width: 675px) {
     
+    nav a {
+        padding: 0 0;
+    }
 }
