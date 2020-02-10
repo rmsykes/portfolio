@@ -147,11 +147,14 @@ header img {
     height: 180%;
 } 
 
+.skillsAndTechnologiesSection {
+    margin: 75px auto;
+}
 
 .skillsAndTechnologiesSection h1 {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 500px;
     margin: 25px auto;
     text-align: center;
     border-radius: 25px;
@@ -242,7 +245,7 @@ header img {
 .skillsListThree {
     display:flex;
     justify-content: space-evenly;
-    margin: 40px 0 25px 0;
+    margin: 60px 0 25px 0;
 }
 
 .skillsListThree img {
@@ -258,15 +261,16 @@ header img {
 
 
 .content h2 {
-    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: 25px auto;
     text-align: center;
-    font-size: 45px;
-    margin: 0px;
-    width: 555px;
-    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
     border-radius: 25px;
-    color: black;
-    box-shadow: 7px 10px black;
+    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
+    padding: 30px 0px;
+    font-size: 45px;
+    color:black;
 
 }
 
@@ -306,7 +310,7 @@ header img {
 .projectB {
     display: flex;
     justify-content: space-around;
-    margin: 45px 0;
+    margin: 30px 0;
     border-radius: 25px;
     background: linear-gradient(to left, #3B9ABF, rgb(135, 207, 231));
     flex-direction: row-reverse;
@@ -346,6 +350,7 @@ article p {
 
 
 
+
 @media only screen and (max-width: 1100px) {
    .headerTop {
     justify-content: space-evenly;
@@ -375,18 +380,95 @@ article p {
 }
 
 @media only screen and (max-width: 850px) {
-    .headerTop img {
-        width: 250px;
+    .headerTop {
+        justify-content: space-evenly;
        }
+    
+        .headerTop img {
+            width: 235px;
+       }
+
        .headerTop h1 {
            font-size: 47px;
        }
     
        header p {
-           font-size: 22px;
+           font-size: 21px;
        }
     
        .listOfSkillsAndTechnologies {
-           margin: 0 70px;
+           margin: 0 45px;
+           padding: 5px 0;
        }
+    
+       .content {
+           margin: 100px 45px; 
+       }
+
+       .skillsListOne {
+           margin: 0 auto
+       }
+
+       .skillsListTwo {
+            margin: 0 auto
+        }
+
+        .skillsListThree {
+            margin: 30px auto
+        }
+
 }
+
+@media only screen and (max-width: 800px) {
+    .headerTop img {
+            width: 225px;
+       }
+    
+       header p {
+        font-size: 20px;
+    }
+
+    .skillsListOne img {
+        width: 90px;
+        height: 90px;
+        margin: 30px auto;
+    }
+    #cssLogo {
+        width: 70px;
+    }
+    #reactLogo {
+        width:125px;
+        height: 85px;
+    }
+    #mongoLogo {
+        width:125px;
+        height: 85px;
+    }
+    #sqlLogo {
+        width: 87px;
+        height: 87px;
+    }
+    #pythonLogo {
+        width:125px;
+        height: 85px;
+    }
+    #djangoLogo {
+        width: 87px;
+        height: 87px; 
+    }
+    #agileLogo {
+        width: 87px;
+        height: 87px; 
+    }
+    #gitHubLogo {
+        width:125px;
+        height: 85px;
+    }
+    #nodeLogo {
+        width:125px;
+        height: 85px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
