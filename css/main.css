@@ -599,4 +599,12 @@ article p {
     .content h2 {
         width: 555px;
     }
+
+    article p {
+        font-size: 18px;
+    }
+
+    .skillsListTwo img {
+        margin:0px 25px;
+    }
 }
