@@ -4,24 +4,26 @@ body {
     font-family: 'Acme', sans-serif;
     line-height: 1.5;
     background-size: cover;
-    background-color: black;
+    background-color: #222;
+    
 }
 
 .navbar-inverse .navbar-brand {
     color: white;
-}
-
-nav {
-    background-color: black;
-    color: white;
-    display: flex;
-    position: sticky;
-    top: 0;
+    margin-top: 6px;
 }
 
 .container-fluid {
     display: flex;
     justify-content: space-between;
+}
+
+nav {
+    background-color: #222;
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -33,22 +35,36 @@ nav a {
     margin: 0 15px;
 }
 
-.navName {
-display: flex;
+
+
+.navList {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-top:10px;
+}
+
+.navList a {
+    padding: 7px 10px;
+}
+
+.navList a:hover {
+    background-color: white;
+    text-decoration: none;
+    color:#222;
+    transition: .8s;
+    border-radius: 10px;
 }
 
 
-.navItems {
-    display: flex;
-    justify-content: space-between;
+.dropdown-toggle {
     align-items: center;
 }
 
-
-nav a:hover {
-    color:black;
-    transition: .8s;
+.navName {
+    display: flex;
 }
+
 
 a {
     text-decoration: none;
@@ -59,12 +75,11 @@ header {
     background-size: cover;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 18px black;
 
 }
 
 header h1 {
-    padding: 50px; 
+    padding: 20px 0 0 0; 
     font-size: 55px;
 }
 
@@ -78,8 +93,8 @@ header p {
 }
 
 .aboutMe {
-    padding: 0 50px 50px 50px;
-    margin: 25px 0 0 0;
+    padding: 0 50px 55px 50px;
+    margin: 25px 20px 0 20px;
 }
 
 
@@ -89,15 +104,11 @@ header p {
     align-items: center;
 }
 
-.headerBottom {
-    padding: 0 0 40px 0;
-}
-
 header img {
-    width: 300px;
-    margin: 60px;
+    width: 255px;
+    margin: 60px 0 15px 0;
     border-radius: 40%;
-    border: solid black 3px;
+    border: solid #222 3px;
 }
 
 
@@ -126,7 +137,7 @@ header img {
 }
 
 .btn1:hover {
-    color:black;
+    color:#222;
 }
 
 
@@ -151,15 +162,18 @@ header img {
     height: 180%;
 } 
 
+.skillsAndTechnologiesSection {
+    margin: 75px auto;
+}
 
 .skillsAndTechnologiesSection h1 {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 500px;
     margin: 25px auto;
     text-align: center;
     border-radius: 25px;
-    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to bottom, rgb(135, 207, 231), #3B9ABF);
     padding: 30px 0px;
     font-size: 45px;
     
@@ -167,9 +181,9 @@ header img {
 
 
 .listOfSkillsAndTechnologies {
-    background: linear-gradient(to top, rgb(135, 207, 231), rgb(35, 155, 173));
+    background: linear-gradient(to top, rgb(135, 207, 231), #3B9ABF);
     padding: 15px 0;
-    margin: 0 135px;
+    margin: 0 200px;
     border-radius: 25px;
 }
 
@@ -192,7 +206,6 @@ header img {
 .skillsListTwo {
     display:flex;
     justify-content: space-evenly;
-    margin: 10px auto;
 }
 
 .skillsListTwo img {
@@ -246,7 +259,7 @@ header img {
 .skillsListThree {
     display:flex;
     justify-content: space-evenly;
-    margin: 40px 0 25px 0;
+    margin: 60px 0 25px 0;
 }
 
 .skillsListThree img {
@@ -257,20 +270,21 @@ header img {
 
 .content {
     color: white;
-    margin: 100px 135px;
+    margin: 100px 200px;
 }
 
 
 .content h2 {
-    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: 25px auto;
     text-align: center;
-    font-size: 45px;
-    margin: 0px;
-    width: 555px;
-    background: linear-gradient(to bottom, rgb(135, 207, 231), rgb(35, 155, 173));
     border-radius: 25px;
-    color: black;
-    box-shadow: 7px 10px black;
+    background: linear-gradient(to bottom, rgb(135, 207, 231), #3B9ABF);
+    padding: 30px 0px;
+    font-size: 45px;
+    color:#222;
 
 }
 
@@ -285,14 +299,12 @@ header img {
     display: flex;
     justify-content: space-around;
     margin: 45px 0;
-    padding: 20px 0;
     border-radius: 25px;
     background: linear-gradient(to left, rgb(135, 207, 231), #3B9ABF);
-
 }
 
 .projectA a {
-    color: black;
+    color: #222;
 }
 
 
@@ -311,15 +323,14 @@ header img {
 .projectB {
     display: flex;
     justify-content: space-around;
-    margin: 45px 0;
-    padding: 20px 0;
+    margin: 30px 0;
     border-radius: 25px;
     background: linear-gradient(to left, #3B9ABF, rgb(135, 207, 231));
     flex-direction: row-reverse;
 }
 
 .projectB a {
-    color: black;
+    color: #222;
 }
 
 .projectB:hover {
@@ -349,3 +360,251 @@ article p {
     font-size: 20px;
 }
 
+
+@media only screen and (max-width: 1300px) {
+    .listOfSkillsAndTechnologies {
+        margin: 0 165px;
+    }
+    
+    .content {
+        margin: 100px 165px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1175px) {
+    .projectImageContainer img {
+        height: 325px;
+    }
+
+    .listOfSkillsAndTechnologies {
+        margin: 0 65px;
+        padding: 5px 0;
+    }
+ 
+    .content {
+        margin: 100px 65px; 
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+   .headerTop {
+    justify-content: space-evenly;
+   }
+
+    .headerTop img {
+    width: 250px;
+   }
+   .headerTop h1 {
+       font-size: 47px;
+   }
+
+   header p {
+       font-size: 22px;
+   }
+
+   .listOfSkillsAndTechnologies {
+       margin: 0 70px;
+   }
+
+   .content {
+       margin: 100px 70px; 
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+    .projectImageContainer img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .headerTop {
+        justify-content: space-evenly;
+       }
+    
+        .headerTop img {
+            width: 235px;
+       }
+
+       .headerTop h1 {
+           font-size: 47px;
+       }
+    
+       header p {
+           font-size: 21px;
+       }
+    
+       .listOfSkillsAndTechnologies {
+           margin: 0 45px;
+           padding: 5px 0;
+       }
+    
+       .content {
+           margin: 100px 45px; 
+       }
+
+       .skillsListOne {
+           margin: 0 auto
+       }
+
+       .skillsListTwo {
+            margin: 0 auto
+        }
+
+        .skillsListThree {
+            margin: 30px auto
+        }
+
+        .article p {
+            font-size: 18px;
+        }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-inverse .navbar-brand {
+        color: white;
+        margin-top: 0px;
+    }
+    
+    .navList a {
+        padding: 0;
+    }
+    
+    .headerTop img {
+            width: 225px;
+       }
+    
+       header p {
+        font-size: 20px;
+    }
+
+    .skillsListOne img {
+        width: 90px;
+        height: 90px;
+        margin: 30px auto;
+    }
+    #cssLogo {
+        width: 70px;
+    }
+    #reactLogo {
+        width:125px;
+        height: 85px;
+    }
+    #mongoLogo {
+        width:125px;
+        height: 85px;
+    }
+    #sqlLogo {
+        width: 87px;
+        height: 87px;
+    }
+    #pythonLogo {
+        width:125px;
+        height: 85px;
+    }
+    #djangoLogo {
+        width: 87px;
+        height: 87px; 
+    }
+    #agileLogo {
+        width: 87px;
+        height: 87px; 
+    }
+    #gitHubLogo {
+        width:125px;
+        height: 85px;
+    }
+    #nodeLogo {
+        width:125px;
+        height: 85px;
+    }
+
+    .projectImageContainer img {
+        height: 280px;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    .skillsListOne img {
+        width: 75px;
+        height: 75px;
+        margin: 30px auto;
+    }
+
+    article {
+        line-height: 1.7;
+    }
+
+    .projectImageContainer img {
+        margin: 15px;
+    }
+
+
+    #cssLogo {
+        width: 60px;
+    }
+    #reactLogo {
+        width:110px;
+        height: 75px;
+    }
+    #mongoLogo {
+        width:110px;
+        height: 75px;
+    }
+    #sqlLogo {
+        width: 75px;
+        height: 75px;
+    }
+    #pythonLogo {
+        width:110px;
+        height: 75px;
+    }
+    #djangoLogo {
+        width: 75px;
+        height: 75px; 
+    }
+    #agileLogo {
+        width: 75px;
+        height: 75px; 
+    }
+    #gitHubLogo {
+        width:110px;
+        height: 75px;
+    }
+    #nodeLogo {
+        width:110px;
+        height: 75px;
+    }
+}
+
+
+@media only screen and (max-width: 675px) {
+    
+    nav a {
+        padding: 0 0;
+    }
+}
+
+/* iphone 6/7/8 PLUS */
+@media only screen and (max-width: 414px) {
+    body {
+        width: 645px;
+    }
+
+    .content h2 {
+        width: 555px;
+    }
+
+    article p {
+        font-size: 18px;
+    }
+
+    .skillsListTwo img {
+        margin:0px 25px;
+    }
+}
