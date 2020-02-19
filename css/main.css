@@ -1,23 +1,41 @@
+/* UNIVERSAL */
 body {
     min-height: 100vh;
     margin: 0 auto; 
     font-family: 'Acme', sans-serif;
     line-height: 1.5;
     background-size: cover;
-    background-color: #222;
-    
+    background-color: #222;    
+}
+a {
+    text-decoration: none;
 }
 
+.gitLogoLink {
+    width: 40px;
+    margin: 10px auto;
+    text-align: center;
+}
+.gitLogoLink:hover {
+    box-shadow: 0 0 20px #222;
+    border-radius: 50%;
+
+}
+.gitLogoLink img {
+    width:40px;
+    border-radius: 50%;
+}
+
+
+/* NAV BAR */
 .navbar-inverse .navbar-brand {
     color: white;
     margin-top: 6px;
 }
-
 .container-fluid {
     display: flex;
     justify-content: space-between;
 }
-
 nav {
     background-color: #222;
     color: white;
@@ -25,7 +43,6 @@ nav {
     position: sticky;
     top: 0;
 }
-
 nav a {
     text-decoration: none;
     color: white;
@@ -34,9 +51,6 @@ nav a {
     justify-content: center;
     margin: 0 15px;
 }
-
-
-
 .navList {
     list-style: none;
     display: flex;
@@ -47,7 +61,6 @@ nav a {
 .navList a {
     padding: 7px 10px;
 }
-
 .navList a:hover {
     background-color: white;
     text-decoration: none;
@@ -55,63 +68,12 @@ nav a {
     transition: .8s;
     border-radius: 10px;
 }
-
-
 .dropdown-toggle {
     align-items: center;
 }
-
 .navName {
     display: flex;
 }
-
-
-a {
-    text-decoration: none;
-}
-
-header {
-    background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-
-}
-
-header h1 {
-    padding: 20px 0 0 0; 
-    font-size: 55px;
-}
-
-header h2 {
-    font-size: 30px;
-}
-
-header p {
-    margin: 0px;
-    font-size: 24px;
-}
-
-.aboutMe {
-    padding: 0 50px 55px 50px;
-    margin: 25px 20px 0 20px;
-}
-
-
-.headerTop {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header img {
-    width: 255px;
-    margin: 60px 0 15px 0;
-    border-radius: 40%;
-    border: solid #222 3px;
-}
-
-
 
 .contactMeButtonContainer {
     display: flex;
@@ -130,17 +92,12 @@ header img {
     overflow: hidden;
     z-index: 1; 
 }
-
-
 .btn1 {
     color: aqua;
 }
-
 .btn1:hover {
     color:#222;
 }
-
-
 .btn::before {
     content: "";
     position: absolute;
@@ -149,10 +106,8 @@ header img {
     height: 0%;
     background: aqua;
     z-index: -1;
-    transition: .8s;
-    
+    transition: .8s; 
 }
-
 .btn1::before {
     top: 0;
     border-radius: 0 0 50% 50%;
@@ -162,6 +117,44 @@ header img {
     height: 180%;
 } 
 
+
+/* HEADER */
+header {
+    background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    padding: 20px 0 0 0; 
+    font-size: 55px;
+}
+header h2 {
+    font-size: 30px;
+}
+header p {
+    margin: 0px;
+    font-size: 24px;
+}
+.aboutMe {
+    padding: 0 50px 55px 50px;
+    margin: 25px 20px 0 20px;
+}
+.headerTop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img {
+    width: 255px;
+    margin: 60px 0 15px 0;
+    border-radius: 40%;
+    border: solid #222 3px;
+}
+
+
+
+/* SKILLS AND TECHNOLOGIES SECTION */
 .skillsAndTechnologiesSection {
     margin: 75px auto;
 }
@@ -176,14 +169,13 @@ header img {
     background: linear-gradient(to bottom, rgb(135, 207, 231), #3B9ABF);
     padding: 30px 0px;
     font-size: 45px;
-    
 }
 
-
 .listOfSkillsAndTechnologies {
-    background: linear-gradient(to top, rgb(135, 207, 231), #3B9ABF);
+    width:1200px;
+    margin: 0 auto;
     padding: 15px 0;
-    margin: 0 200px;
+    background: linear-gradient(to top, rgb(135, 207, 231), #3B9ABF);
     border-radius: 25px;
 }
 
@@ -214,21 +206,19 @@ header img {
     margin: 0 30px;
 }
 
+/* LOGOS */
 #reactLogo {
     width:145px;
     border-radius: 25px;
 }
-
 #nodeLogo {
     width:145px;
     border-radius: 25px;
 }
-
 #mongoLogo {
     width:145px;
     border-radius: 25px;
 }
-
 #axiosLogo {
     width:145px;
     border-radius: 25px;
@@ -237,24 +227,22 @@ header img {
 #agileLogo {
     border-radius: 10px;
 }
-
 #pythonLogo {
     width:145px;
     border-radius: 25px;
 }
-
 #sqlLogo {
     border-radius: 10px;
 }
-
 #gitHubLogo {
     border-radius: 10px;
     width: 145px;
 }
-
 #djangoLogo {
     border-radius: 10px;
 }
+
+
 
 .skillsListThree {
     display:flex;
@@ -270,7 +258,8 @@ header img {
 
 .content {
     color: white;
-    margin: 100px 200px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -360,31 +349,26 @@ article p {
     font-size: 20px;
 }
 
-
+/* responsive design */
 @media only screen and (max-width: 1300px) {
     .listOfSkillsAndTechnologies {
-        margin: 0 165px;
+        width: 1100px;
     }
-    
     .content {
-        margin: 100px 165px;
+        width:1100px;
     }
-
-
 }
 
 @media only screen and (max-width: 1175px) {
     .projectImageContainer img {
         height: 325px;
     }
-
     .listOfSkillsAndTechnologies {
-        margin: 0 65px;
-        padding: 5px 0;
+        width:1000px;
     }
  
     .content {
-        margin: 100px 65px; 
+        width:1000px;
     }
 }
 
@@ -392,30 +376,41 @@ article p {
    .headerTop {
     justify-content: space-evenly;
    }
-
     .headerTop img {
     width: 250px;
    }
    .headerTop h1 {
        font-size: 47px;
    }
-
    header p {
        font-size: 22px;
    }
-
    .listOfSkillsAndTechnologies {
-       margin: 0 70px;
-   }
-
+        width: 950px;
+    }
    .content {
-       margin: 100px 70px; 
-   }
+        width: 950px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .projectImageContainer img {
         height: 300px;
+    }
+    .listOfSkillsAndTechnologies {
+        width: 850px;
+    }
+   .content {
+        width: 850px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .listOfSkillsAndTechnologies {
+        width: 800px;
+    }
+   .content {
+        width: 800px;
     }
 }
 
@@ -423,28 +418,21 @@ article p {
     .headerTop {
         justify-content: space-evenly;
        }
-    
         .headerTop img {
             width: 235px;
        }
-
        .headerTop h1 {
            font-size: 47px;
-       }
-    
+       }    
        header p {
            font-size: 21px;
-       }
-    
+       }   
        .listOfSkillsAndTechnologies {
-           margin: 0 45px;
-           padding: 5px 0;
-       }
-    
+        width: 750px; 
+       }   
        .content {
-           margin: 100px 45px; 
+        width: 750px;
        }
-
        .skillsListOne {
            margin: 0 auto
        }
@@ -460,8 +448,6 @@ article p {
         .article p {
             font-size: 18px;
         }
-
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -469,19 +455,15 @@ article p {
         color: white;
         margin-top: 0px;
     }
-    
     .navList a {
         padding: 0;
     }
-    
     .headerTop img {
-            width: 225px;
-       }
-    
-       header p {
+        width: 225px;
+    }
+    header p {
         font-size: 20px;
     }
-
     .skillsListOne img {
         width: 90px;
         height: 90px;
@@ -522,29 +504,30 @@ article p {
         width:125px;
         height: 85px;
     }
-
     .projectImageContainer img {
         height: 280px;
+    }
+    .listOfSkillsAndTechnologies {
+        width: 700px; 
+    }   
+    .content {
+        width: 700px;
     }
 }
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 745px) {
     .skillsListOne img {
         width: 75px;
         height: 75px;
         margin: 30px auto;
     }
-
     article {
         line-height: 1.7;
     }
-
     .projectImageContainer img {
         margin: 15px;
     }
-
-
     #cssLogo {
         width: 60px;
     }
@@ -580,13 +563,24 @@ article p {
         width:110px;
         height: 75px;
     }
+    .listOfSkillsAndTechnologies {
+        width: 650px; 
+    }   
+    .content {
+        width: 650px;
+    }
 }
 
 
-@media only screen and (max-width: 675px) {
-    
+@media only screen and (max-width: 685px) {
     nav a {
         padding: 0 0;
+    }
+    .listOfSkillsAndTechnologies {
+        width: 600px; 
+    }   
+    .content {
+        width: 600px;
     }
 }
 
